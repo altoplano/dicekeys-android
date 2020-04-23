@@ -1,0 +1,5 @@
+[DiceKeys](../../index.md) / [org.dicekeys.read](../index.md) / [KeySqrRenderer](index.md) / [renderKeySqr](./render-key-sqr.md)
+
+# renderKeySqr
+
+`fun renderKeySqr(keySqr: `[`KeySqr`](../../org.dicekeys.keysqr/-key-sqr/index.md)`<`[`Face`](../../org.dicekeys.keysqr/-face/index.md)`>, canvas: `[`Canvas`](https://developer.android.com/reference/android/graphics/Canvas.html)`, size: `[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)` = minOf(canvas.width, canvas.height).toFloat(), x: `[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)` = (canvas.width - size) / 2, y: `[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)` = (canvas.height - size) / 2): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
