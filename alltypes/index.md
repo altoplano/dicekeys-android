@@ -19,13 +19,6 @@ parameter named *keyDerivationOptionsJson*.
 
 |
 
-##### [org.dicekeys.trustedapp.apicommands.permissionchecked.ApiPermissionChecks](../org.dicekeys.trustedapp.apicommands.permissionchecked/-api-permission-checks/index.md)
-
-This class performs permission checks
-
-
-|
-
 ##### [org.dicekeys.api.ClientMayNotRetrieveKeyException](../org.dicekeys.api/-client-may-not-retrieve-key-exception/index.md)
 
 
@@ -67,36 +60,6 @@ DiceKey and to perform operations on the application's behalf.
 |
 
 ##### [org.dicekeys.api.DiceKeysAppNotPresentException](../org.dicekeys.api/-dice-keys-app-not-present-exception/index.md)
-
-
-|
-
-##### [org.dicekeys.trustedapp.activities.DisplayPublicKeyActivity](../org.dicekeys.trustedapp.activities/-display-public-key-activity/index.md)
-
-
-|
-
-##### [org.dicekeys.trustedapp.activities.ExecuteApiCommandActivity](../org.dicekeys.trustedapp.activities/-execute-api-command-activity/index.md)
-
-
-|
-
-##### [org.dicekeys.keysqr.Face](../org.dicekeys.keysqr/-face/index.md)
-
-
-|
-
-##### [org.dicekeys.keysqr.FaceDimensionsFractional](../org.dicekeys.keysqr/-face-dimensions-fractional/index.md)
-
-
-|
-
-##### [org.dicekeys.keysqr.FaceRead](../org.dicekeys.keysqr/-face-read/index.md)
-
-
-|
-
-##### [org.dicekeys.keysqr.FaceWithUnderlineAndOverlineCode](../org.dicekeys.keysqr/-face-with-underline-and-overline-code/index.md)
 
 
 |
@@ -146,36 +109,6 @@ Thrown when keyDerivationOptionsJson parameter contains an invalid keyLengthInBy
 
 |
 
-##### [org.dicekeys.keysqr.KeySqr](../org.dicekeys.keysqr/-key-sqr/index.md)
-
-
-|
-
-##### [org.dicekeys.read.KeySqrAnalyzer](../org.dicekeys.read/-key-sqr-analyzer/index.md)
-
-
-|
-
-##### [org.dicekeys.read.KeySqrDrawable](../org.dicekeys.read/-key-sqr-drawable/index.md)
-
-
-|
-
-##### [org.dicekeys.read.KeySqrRenderer](../org.dicekeys.read/-key-sqr-renderer/index.md)
-
-
-|
-
-##### [org.dicekeys.trustedapp.state.KeySqrState](../org.dicekeys.trustedapp.state/-key-sqr-state/index.md)
-
-
-|
-
-##### [org.dicekeys.keysqr.Line](../org.dicekeys.keysqr/-line/index.md)
-
-
-|
-
 ##### [com.dicekeys.fidowriter.ListOfWritableUsbFidoKeys](../com.dicekeys.fidowriter/-list-of-writable-usb-fido-keys/index.md)
 
 An class that maintains a list of FIDO security keys
@@ -199,48 +132,11 @@ seeds obtained from a DiceKey using a DiceKeys API.
 
 |
 
-##### [org.dicekeys.trustedapp.activities.MainActivity](../org.dicekeys.trustedapp.activities/-main-activity/index.md)
-
-
-|
-
 ##### [org.dicekeys.crypto.seeded.PackagedSealedMessage](../org.dicekeys.crypto.seeded/-packaged-sealed-message/index.md)
 
 This class stores everything needed to unseal a message
 sealed with a [SymmetricKey](../org.dicekeys.crypto.seeded/-symmetric-key/index.md) or [PublicKey](../org.dicekeys.crypto.seeded/-public-key/index.md), so long as you have either the seed from which
 that key was derived from *or* the key itself:
-
-
-|
-
-##### [org.dicekeys.trustedapp.apicommands.permissionchecked.PermissionCheckedCommands](../org.dicekeys.trustedapp.apicommands.permissionchecked/-permission-checked-commands/index.md)
-
-Implements the server-side API calls and the necessary permission checks,
-using a structure that's locally testable
-(all intent marshalling and unmarshalling occurs outside this library.)
-
-
-|
-
-##### [org.dicekeys.trustedapp.apicommands.permissionchecked.PermissionCheckedIntentCommands](../org.dicekeys.trustedapp.apicommands.permissionchecked/-permission-checked-intent-commands/index.md)
-
-Wrap the [PermissionCheckedCommands](../org.dicekeys.trustedapp.apicommands.permissionchecked/-permission-checked-commands/index.md) to unmarshall parameters from the
-Android Intents (e.g. via `getStringExtra` or `getByteArrayExtra`) and then
-marshall the Api call's result into a result intent (e.g. via `putExtra`).
-
-
-|
-
-##### [org.dicekeys.trustedapp.apicommands.permissionchecked.PermissionChecksAndHiddenSeeds](../org.dicekeys.trustedapp.apicommands.permissionchecked/-permission-checks-and-hidden-seeds/index.md)
-
-This class abstracts away all permissions checks AND all access to the keySqr seed,
-so that the only way the Api which inherits from it can get to the seed is by
-going through the permission checks.
-
-
-|
-
-##### [org.dicekeys.keysqr.Point](../org.dicekeys.keysqr/-point/index.md)
 
 
 |
@@ -274,16 +170,6 @@ A [PublicKey](../org.dicekeys.crypto.seeded/-public-key/index.md) is used to *se
 The key pair of this [PublicKey](../org.dicekeys.crypto.seeded/-public-key/index.md) and the matching [PrivateKey](../org.dicekeys.crypto.seeded/-private-key/index.md) are generated
 from a seed and a set of key-derivation specified options in JSON format
 [Key-Derivation Options JSON Format](https://dicekeys.github.io/seeded-crypto/key_derivation_options_format.html).
-
-
-|
-
-##### [org.dicekeys.read.ReadKeySqr](../org.dicekeys.read/-read-key-sqr/index.md)
-
-
-|
-
-##### [org.dicekeys.read.ReadKeySqrActivity](../org.dicekeys.read/-read-key-sqr-activity/index.md)
 
 
 |
@@ -329,11 +215,6 @@ So, you can use this symmetric-key to seal a message, throw the
 key away, and re-generate the key when you need to unseal the
 message so long as you still have the original seed and
 keyDerivationOptionsJson.
-
-
-|
-
-##### [org.dicekeys.keysqr.Undoverline](../org.dicekeys.keysqr/-undoverline/index.md)
 
 
 |

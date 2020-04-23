@@ -1,5 +1,0 @@
-[DiceKeys](../../index.md) / [org.dicekeys.read](../index.md) / [KeySqrRenderer](index.md) / [renderFace](./render-face.md)
-
-# renderFace
-
-`fun renderFace(face: `[`Face`](../../org.dicekeys.keysqr/-face/index.md)`, canvas: `[`Canvas`](https://developer.android.com/reference/android/graphics/Canvas.html)`, faceSize: `[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)` = minOf(canvas.width, canvas.height).toFloat(), textPaint: `[`Paint`](https://developer.android.com/reference/android/graphics/Paint.html)` = textPaintForFaceSize(faceSize), x: `[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)` = 0f, y: `[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)` = 0f): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

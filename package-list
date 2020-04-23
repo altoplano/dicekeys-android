@@ -4,8 +4,3 @@ $dokka.linkExtension:md
 com.dicekeys.fidowriter
 org.dicekeys.api
 org.dicekeys.crypto.seeded
-org.dicekeys.keysqr
-org.dicekeys.read
-org.dicekeys.trustedapp.activities
-org.dicekeys.trustedapp.apicommands.permissionchecked
-org.dicekeys.trustedapp.state

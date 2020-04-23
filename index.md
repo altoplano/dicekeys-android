@@ -41,11 +41,6 @@ of the security key they lost.
 | [com.dicekeys.fidowriter](com.dicekeys.fidowriter/index.md) | This *sample* application seeds FIDO security keys with cryptographic keys derived from the user's DiceKey. |
 | [org.dicekeys.api](org.dicekeys.api/index.md) | Your can use the [DiceKeysApiClient](org.dicekeys.api/-dice-keys-api-client/index.md) in this package to ask the DiceKeys app to derive keys from the user's DiceKey, and to perform cryptographic operations on your application's behalf. This package uses and returns keys from the [org.dicekeys.crypto.seeded](org.dicekeys.crypto.seeded/index.md) package. |
 | [org.dicekeys.crypto.seeded](org.dicekeys.crypto.seeded/index.md) | This wrapper for the DiceKeys [Seeded Cryptography C++ Library](https://dicekeys.github.io/seeded-crypto/), provides cryptographic keys seeded by DiceKeys (or other strings) and cryptographic operations using those keys. |
-| [org.dicekeys.keysqr](org.dicekeys.keysqr/index.md) | This *primarily internal* library is used by the DiceKeys app to represent DiceKeys as a square of faces (or KeySqr), which can not only represent boxes of six-sided dice but also square of two-sided chips. |
-| [org.dicekeys.read](org.dicekeys.read/index.md) | This *primarily internal* library is used by the DiceKeys app to scan (read) DiceKeys with a camera. |
-| [org.dicekeys.trustedapp.activities](org.dicekeys.trustedapp.activities/index.md) |  |
-| [org.dicekeys.trustedapp.apicommands.permissionchecked](org.dicekeys.trustedapp.apicommands.permissionchecked/index.md) |  |
-| [org.dicekeys.trustedapp.state](org.dicekeys.trustedapp.state/index.md) |  |
 
 ### Index
 
